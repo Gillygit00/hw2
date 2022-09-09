@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <a href="index.html">Home</a>
+
+  <link href="/HW2/site.css" 
+  type="text/css"
+  rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Page</title>
+</head>
+<body>
+
+  <h2> Search for Hat </h2>
+
+  <form action="/actionpage.py">
+    Hat: <input type="text" name="name"><br>
+    Size: <input type="number" name="msg"><br>
+    Password for Discount: <input type="password" name="pwd"><br>
+    <input type="submit" value="Submit">
+    
+    </form>
+
+
+    <h4><u> Advanced Search </u></h4>
+
+    <table>
+      <tr>
+        <td valign="top">
+          Type:<br>
+          <select name="food">
+            <option value="fitted">Fitted</option>
+            <option value="snapBack">SnapBack</option>
+            <option value="dadHate">DadHat</option>
+            <option value="bucket">BucketHat</option>
+          </select>
+        </td>
+        <td>
+         Sizes :<br>
+            <input type="radio" name="pmt" value="cash" checked>7<br>
+            <input type="radio" name="pmt" value="credit">7 3/8<br>
+            <input type="radio" name="pmt" value="debit">7 1/2
+        </td>
+        <td valign="top">
+            Other:<br>
+            <input type="checkbox" name="eatin" value="Bike">Size<br>
+            <input type="checkbox" name="member" value="Car">No size
+        </td>          
+      </tr>
+      <tr>
+        Enter a date: <input type="date" name="orderDate">
+      </tr>
+      
+    </table>
+
+  
+  
+</body>
+</html>

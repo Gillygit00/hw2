@@ -1,0 +1,43 @@
+h1 {
+  color: red;
+  font-family: 'Courier New';} 
+
+h2 {
+    color: red;
+    font-family: 'Courier New';} 
+
+p {
+  font-family: Calibri;
+}
+
+body {
+  font-family:  'Calibri';
+}
+
+a:link {color: red';text-decoration: none;}
+
+
+a:visited {color: green}
+
+ul {
+  list-style: square;
+}
+
+ol {
+  list-style: lower-roman;
+}
+
+tr:hover {
+  color: lightblue;
+}
+
+table {
+  background-color: lightgray;
+}
+
+input [type="submit"]:hover {
+  background-color: red;
+}
+
+input[type="submit"]:active {background-color: green;}
+
